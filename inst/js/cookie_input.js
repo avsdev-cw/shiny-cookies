@@ -46,7 +46,3 @@ $(document).on('shiny:connected', function(ev){
   Shiny.setInputValue('cookies_start', jsCookiesStart);
   getCookies();
 });
-
-window.addEventListener('focus', function() {
-  getCookies();
-});
